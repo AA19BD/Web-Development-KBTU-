@@ -1,0 +1,262 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+}
+/* .container1{
+    display: flex;
+    flex-direction: row;
+
+} */
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    /* align-items: center; */
+    /* justify-content:start; */
+}
+.left-logo{
+    display:flex;
+    width:auto;
+    height: 22px;
+    padding-left: 89px;
+    padding-top: 14px;
+}
+.nav-menu .left-menu{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+
+}
+.nav-menu .left-menu li{
+    display: flex;
+    padding: 3px;
+}
+.nav-menu .left-menu li .ll{
+    text-decoration: none;
+    color: #262626;
+    margin-top: 1px;
+    cursor: pointer;
+    text-align: -webkit-match-parent;
+    font-size: 13px !important;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-left: 2px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+      
+}
+.nav-menu .left-menu li .ll:hover{
+    border-bottom: 2px solid black;
+   
+}
+.nav-menu .right-menu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 370px;
+    
+    
+}
+.nav-menu .right-menu li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px;
+}
+.nav-menu .right-menu li .ll2{
+    text-decoration: none;
+    color: #262626;
+    margin-top: 3px;
+    cursor: pointer;
+    text-align: -webkit-match-parent;
+    font-size: 13px !important;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-left: 9px;
+    padding-right: 17px;
+    padding-bottom: 19px;
+}
+.nav-menu .right-menu li .ll2:hover{
+    border-bottom:2px solid black;;
+}
+
+.background .image{
+    width:1270px;
+    height:480px;
+    margin-left:70px; 
+    position:absolute;
+    margin-top: -1px;
+    z-index: 0;
+}
+.microsoft-365{
+    position:absolute;
+    margin-top:120px;
+    margin-left: 150px;
+    z-index: 1;
+}
+.microsoft-365 h2{
+    /* font-size: 24px; */
+    font-size: 33px;
+    line-height: 28px;
+    max-height: 56px;
+    font-weight: 600;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.background .text1{
+    position:absolute;
+    z-index: 1;
+    margin-top:179px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    width:500px;
+}
+.background .text1 p{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.button-icon{
+    position: absolute;
+    z-index: 1;
+    margin-top:275px;
+    margin-left: 150px;
+    
+ 
+}
+.button-icon button{
+    background-color: black;
+    width:160px;
+    height:40px;
+    border: 2px solid transparent;
+    outline: 1px solid transparent
+   
+    
+}
+
+.button-icon button a{
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.3;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.button-icon button a:hover{
+    border-bottom: 2px solid white;
+}
+.button-icon2{
+    position: absolute;
+    z-index: 1;
+    margin-top:266px;
+    margin-left: 355px;
+    
+}
+.button-icon2 a{
+    color:black;
+    text-decoration: none;
+    font-weight:600;
+    text-align: center;
+    line-height: 1.3;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.button-icon2 a:hover{
+    border-bottom: 2px solid #000;
+}
+.low-container{
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    top:580px;
+    margin-right: 180px;
+    justify-content:space-between;
+}
+.low-container .first-image{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    height: auto;
+    margin-left: 70px;
+}
+.low-container .first-image .nameofimage,.second-image .nameofimage,.third-image .nameofimage,.fourth-image .nameofimage{
+    cursor: pointer;
+    margin-top: 16px;
+}
+.low-container .first-image .nameofimage h3,.second-image .nameofimage h3,.third-image .nameofimage h3,.fourth-image .nameofimage h3{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    opacity: .95;
+    cursor: pointer;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.low-container .first-image p,.second-image p,.third-image p,.fourth-image p{
+    cursor: pointer;
+    margin-top: -14px;
+    padding-right: 5px;
+    line-height: 1.5em;
+    font-size: 15px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.low-container .first-image a,.second-image a,.third-image a,.fourth-image a{
+    margin-left:5px;
+    margin-top: -5px;
+    width:83px;
+    text-decoration: none;
+    color: #0067b8;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.3;
+    cursor: pointer;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.low-container .first-image a:hover{
+    border-bottom: 2px solid #0260a7;
+}
+.low-container .second-image a:hover{
+    border-bottom: 2px solid #0260a7;
+
+}
+.low-container .third-image a:hover{
+    border-bottom: 2px solid #0260a7;
+
+}
+.low-container .fourth-image a:hover{
+    border-bottom: 2px solid #0260a7;
+
+}
+
+
+.low-container .second-image{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    height: auto;
+    margin-left: 25px;
+}
+
+.low-container .third-image{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    height: auto;
+    margin-left: 25px;
+}
+.low-container .fourth-image{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    height: auto;
+    margin-left: 25px;
+}
+
+
