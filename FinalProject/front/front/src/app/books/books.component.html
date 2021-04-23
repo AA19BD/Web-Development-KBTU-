@@ -1,0 +1,13 @@
+<app-header></app-header>
+<h1>Books</h1>
+
+<ul>
+  <li *ngFor="let b of books">
+    <div>
+      <img src={{b.image}} width="100px">
+      <a routerLink="{{b.id}}">name: {{b.name}}</a>
+      <p>author: {{b.author}}</p>
+    </div>
+  </li>
+</ul>
+
